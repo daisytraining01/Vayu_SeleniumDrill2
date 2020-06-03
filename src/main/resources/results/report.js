@@ -1,9 +1,9 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Feature/PrimaryBalance_Nisha.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Feature/Register_Login_Rajesh.feature");
 formatter.feature({
   "line": 2,
-  "name": "Techfish_Nisha",
-  "description": "I want to check my Primary and Savings Balance_Nisha",
-  "id": "techfish-nisha",
+  "name": "Sign up and Login to TechFish Bank",
+  "description": "",
+  "id": "sign-up-and-login-to-techfish-bank",
   "keyword": "Feature",
   "tags": [
     {
@@ -13,39 +13,41 @@ formatter.feature({
   ]
 });
 formatter.scenario({
-  "line": 6,
-  "name": "User login_Nisha",
+  "line": 5,
+  "name": "Sign up into Bank site",
   "description": "",
-  "id": "techfish-nisha;user-login-nisha",
+  "id": "sign-up-and-login-to-techfish-bank;sign-up-into-bank-site",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 5,
+      "line": 4,
       "name": "@tag1"
     }
   ]
 });
 formatter.step({
-  "line": 7,
-  "name": "Open the URL_Nisha",
+  "line": 6,
+  "name": "Open bank application and click on signup button_Rajesh",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 8,
-  "name": "when i enter \"\u003cusername\u003e\" and password as \"\u003cpassword\u003e\"_Nisha",
+  "line": 7,
+  "name": "User enters the personal details and click on register button",
   "keyword": "When "
 });
 formatter.step({
-  "line": 9,
-  "name": "Navigate to Savings Balance_Nisha",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 10,
-  "name": "close_Nisha1",
+  "line": 8,
+  "name": "User registration will be successful",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "PrimaryBalance_Nisha.open_the_URL()"
+  "location": "Signup_drillday2_Rajesh.open_bank_application_and_click_on_signup_button_Rajesh()"
+});
+formatter.result({
+  "duration": 10887507000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Signup_drillday2_Rajesh.user_enters_the_personal_details_and_click_on_register_button()"
 });
