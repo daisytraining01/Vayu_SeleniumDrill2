@@ -1,3 +1,4 @@
+@FullSuit
 Feature: login to tech bank
  I want to schedule an appoinment 
 
