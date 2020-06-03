@@ -16,10 +16,7 @@ Feature: Title of your feature
     Examples: 
       | userdata |
       |        1 |
-      |        2 |
-      |        3 |
-      |        4 |
-      |        5 |
+
 
   @tag2
   Scenario Outline: Fund Tranfer Between Savings Account to Primary Account
@@ -31,7 +28,7 @@ Feature: Title of your feature
     Examples: 
       | userdata1 |
       |         6 |
-      #|         7 |
+    
 
   @tag3
   Scenario Outline: Fund Tranfer Between Primary Account to Savings Account with a invalid amount
