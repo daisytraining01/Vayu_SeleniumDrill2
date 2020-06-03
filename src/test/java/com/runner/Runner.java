@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		// Location of the feature file folder
-		features = { "classpath:Feature/TransferBetweenAccounts_Vimal.feature" },
+		features = { "classpath:Feature/Appoinment_nandhini.Feature.feature" },
 		// Where my definition is written
 		glue = { "classpath:com.stepdefination", "classpath:com.pageobject" },
 		// Which tag needs to be executed
