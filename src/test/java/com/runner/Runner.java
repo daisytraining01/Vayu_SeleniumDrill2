@@ -12,7 +12,7 @@ import cucumber.api.junit.Cucumber;
 		// Where my definition is written
 		glue = { "classpath:com.stepdefination", "classpath:com.pageobject" },
 		// Which tag needs to be executed
-		tags = { "@FullSuit" },
+		tags = { "@tag2" },
 		// Reports generations
 		plugin = { "pretty", "html:src/main/resources/results/" },
 		// creates body of the undefined functions
