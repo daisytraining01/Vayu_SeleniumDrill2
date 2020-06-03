@@ -8,11 +8,11 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		// Location of the feature file folder
-		features = { "classpath:Feature/TransferBetweenAccounts_Vimal.feature" },
+		features = { "classpath:Feature" },
 		// Where my definition is written
 		glue = { "classpath:com.stepdefination", "classpath:com.pageobject" },
 		// Which tag needs to be executed
-		tags = { "@tag1" },
+		tags = { "@FullSuit" },
 		// Reports generations
 		plugin = { "pretty", "html:src/main/resources/results/" },
 		// creates body of the undefined functions
